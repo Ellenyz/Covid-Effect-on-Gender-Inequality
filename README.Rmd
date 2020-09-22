@@ -1,0 +1,27 @@
+---
+title: "README"
+author: "Yuzhou Wang"
+date: "9/21/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F,tidy.opts=list(width.cutoff=70),tidy=T) 
+```
+
+## Project Topic: Impact of COVID19 on GENDER GAP
+
+### IPUMS-CPS DATA
+
+This dataset contains individual level monthly panel data relevent to employment and working hours.
+
+**DATASET USING AGREEMENT**
+
+Publications and research reports based on the IPUMS-CPS database must cite it appropriately. The citation should include the following:
+```
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles and J. Robert Warren. Integrated Public Use Microdata Series, Current Population Survey: Version 7.0 [dataset]. Minneapolis, MN: IPUMS, 2020. https://doi.org/10.18128/D030.V7.0
+
+The licensing agreement for use of IPUMS-CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/
+```
+
+**Notice: The author have full copyright of files within this repository. Any reproduce without the author's permittion is forbidden.**
