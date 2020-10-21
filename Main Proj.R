@@ -143,8 +143,6 @@ WH_clean <- WH %>%
   dplyr::select(SEX,MONTH,YNGCH,AHRSWORKT,EMP) %>%
   group_by(SEX,MONTH) %>%
   summarize(n = n(),mean_WH = mean(AHRSWORKT,na.rm = TRUE),sd_WH=sd(AHRSWORKT,na.rm = TRUE))
-
-
   
 ## This is for testing
 view(WH_clean)
