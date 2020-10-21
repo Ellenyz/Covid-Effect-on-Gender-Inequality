@@ -145,7 +145,6 @@ WH_clean <- WH %>%
   summarize(n = n(),mean_WH = mean(AHRSWORKT,na.rm = TRUE),sd_WH=sd(AHRSWORKT,na.rm = TRUE))
 
 
-write.csv(WH_clean,file='WH_clean.csv')  
   
 ## This is for testing
 view(WH_clean)
