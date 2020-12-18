@@ -41,3 +41,7 @@ dt[which(dt$ABSENT==0),'ABSENT'] <- NA
 dt[which(dt$WHYUNEMP==0),'WHYUNEMP'] <- NA
 dt[which(dt$WHYABSNT==0),'WHYABSNT'] <- NA
 dt[which(dt$WHYPTLWK==0),'WHYPTLWK'] <- NA
+
+
+write.csv(dt,file = 'panel_data_cleared.csv')
+
